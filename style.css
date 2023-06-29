@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body
+
+{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    background-position: center;
+   
+   
+}
+
+h1{
+    background-color: beige;
+    margin: 78px;
+    height: 115px;
+    width: 350px;
+    padding: 50px;
+}
+h1 a{
+    text-decoration: none;
+    color: orange;
+}
+h1 a:hover{
+    color: black;
+}
+p{background-color: beige;
+  
+    height: 55px;
+    width: 350px;
+    margin-left: 95px;
+    margin-top: 155px;
+  
+}
+button{
+     /* border-radius: 150px;
+    border-width: 9px; */
+    border-color: rgb(192, 191, 196);
+     border-style: none; 
+     margin-left: 255px;
+    /* padding: 3px;  */
+    /* box-shadow: 0 0 5px cyan; */
+} */
+
+.menu{
+    background: rgb(174, 183, 49);
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(184, 35, 35);
+}
+button a{
+    text-decoration: none;
+}
+button a:hover{
+    /* box-shadow: 0 0 5px cyan ,0 0 25px cyan,0 0 50px cyan, 0 0 100px;
+} */
